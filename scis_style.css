@@ -1,0 +1,304 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#library {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    color: #555;
+    overflow: visible;
+    text-overflow: clip;
+    font-family: SansationRegular, serif;
+}
+
+#body {
+    margin:0% 12.5%;
+    width: 75%;
+    height: 100%;
+    position: relative;
+    background-color: #fff;
+}
+
+#header {
+    width: 100%;
+    height: 28%;
+    background-color: #225d9c;
+    margin:0%;
+    position: relative;
+}
+
+#logo {
+    width: 85%;
+    height: 96%;
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+
+#navbar {
+    margin: 0%;
+    width: 100%;
+    height: 7%;
+    font-size: 1.2em;
+    border-collapse: collapse;
+    box-shadow: 0 -5px 5px -4px #2F4F4F;
+    position: relative;
+}
+
+#topnav {
+  overflow: hidden;
+  background-color: #225d9c;
+    box-shadow: 0 -5px 5px -4px #2F4F4F;
+    position: relative;
+}
+
+#topnav a {
+  float: left;
+  color: #ffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0%;
+    position: relative;
+}
+
+.box1 {
+    text-align: center;
+    font-size: 1.25em;
+    margin: 2% 5%;
+    background: #225d9c;
+    padding: 2% 0.5% 3% .2%;
+    height: 8%;
+    border-radius: 20px 20px;
+    border-style: inset;
+    color: white;
+    width: 100px;
+}
+
+.box2 {
+    text-align: center;
+    font-size: 1.25em;
+    margin: 2.8% 5%;
+    width: 100px;
+    background: #225d9c;
+    padding: 1% 0.5% 1% .5%;
+    border-radius: 20px 20px;
+    border-style: inset;
+    color: white;
+}
+
+.box3 {
+    font-size: 21px;
+    font-family: SansationRegular, arial;
+    text-align: left;
+    margin: 1% 2%;
+    padding: 0.5% 1%;
+    background-color: #8f3931;
+    width: 25%;
+    color: #fff;
+}
+
+.box4 {
+    font-size: 23px;
+    text-align: center;
+    margin: 2% 0%;
+    padding: 0.75%;
+    background-color: #225d9c;
+    width: 25%;
+    color: #fff;
+}
+
+#sidebar1 {
+    float: left;
+    display: inline-block;
+    align-self: stretch;
+    width: 20%;
+    height: 100%;
+    margin: 1% 0% 2% 0%;
+    position: relative;
+    vertical-align: top;
+}
+
+#sidebar1 ul {
+    list-style-type: none;
+    color: #F14E23;
+}
+
+#sidebar1 ul li {
+    list-style-type: none;
+    height: 5%;
+}
+
+#sidebar1 ul li a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #F14E23;
+    font-size: 100%;
+}
+
+#sidebar1 ul li a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    float: left;
+    display: inline-block;
+    align-self: auto;
+    width: 52.7%;
+    height: 90%;
+    margin: 0% 0.25% 2% 0.25%;
+    box-shadow: -5px 0 5px -4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    vertical-align: top;
+}
+
+.info {
+    color: #555;
+    font-size: 100%;
+    text-align: justify;
+    font-family: SansationRegular, serif;
+    margin: 1% 0%; 
+}
+
+.info p {
+    padding: 5px;
+}
+
+.info2 {
+    color: #555;
+    font-size: 16px;
+    text-align: justify;
+    font-family: SansationRegular, serif;
+    margin: 1% 3%;
+    box-shadow: -5px 0 5px -4px rgba(0, 0, 0, 0.2);    
+}
+
+#sidebar2 {
+    float: left;
+    display: inline-block;
+    align-self: auto;
+    width: 23%;
+    height: 90%;
+    margin: 0% 0.2%;
+    box-shadow: -5px 0 5px -4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    vertical-align: top;
+}
+
+#sidebar2 {
+    padding: 1% 1.25%;
+}
+
+#sidebar2 p {
+    color: #990033;
+    font-style: italic;
+    font-family: serif;
+    font-weight: 600;
+}
+
+#sidebar2 p a {
+    color: #990033;
+    text-decoration: none;
+}
+
+#sidebar2 ul li {
+    height: 5px;
+}
+
+#sidebar2 ul li a {
+    text-decoration: none;
+}
+
+#sidebar2 li span {
+    color: #F14E23;
+}
+
+.sub1 {
+    color: #555;
+    font-family: SansationRegular, serif;
+    background-color: #fff;
+    box-shadow: -5px 0 5px -4px rgba(0, 0, 0, 0.2);
+    margin: 2% 3%;
+}
+
+.sub2 {
+    margin: 2% 5%;
+    padding: 2%;
+    border: 2px dashed rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px;
+}
+
+.sub3 {
+    margin: 2% 5%;
+}
+
+#cord {
+    color: #AA1F00;
+    font-family: SansationRegular, serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#cord a {
+    text-decoration: none;
+    color: #AA1F00;
+    font-family: SansationRegular, serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#dean {
+    color: #555;
+    font-family: SansationRegular, serif;
+    font-size: 20px;
+}
+
+#addr {
+    color: #555;
+    font-family: SansationRegular, serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bold {
+    color: #AA1F00;
+    font-family: SansationRegular, serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#footer {
+    display: inline;
+    margin: 0%;
+    width: 100%;
+    height: 10%;
+    font-display: auto;
+    text-align: center;
+    background-color: #555;
+    position: absolute;
+    vertical-align: bottom;
+}
+
+#footer p {
+    color: #fff;
+}

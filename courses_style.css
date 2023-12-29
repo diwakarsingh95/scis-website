@@ -1,0 +1,41 @@
+body {
+    font-family: SansationRegular, serif;
+    color: #555;
+}
+
+h3 {
+    color: #F14E23;
+    font-family: SansationRegular, arial;
+    font-size: 22px;
+}
+
+h4 {
+    color: #AA1F00;
+    font-family: SansationRegular, arial;
+    font-size: 18px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+p.note {
+    font-weight: bold;
+}
+
+table, td, th {
+    border: 1px solid #eee;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
+a {
+    text-decoration: none;
+    color: #F14E23;
+}
